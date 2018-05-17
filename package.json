@@ -1,0 +1,32 @@
+{
+  "name": "chattie",
+  "version": "0.0.1",
+  "description": "open source chat as a service for you my friend",
+  "main": "index.js",
+  "dependencies": {
+    "async": "^2.6.0",
+    "body-parser": "^1.18.3",
+    "config": "^1.30.0",
+    "cucumber": "^4.2.1",
+    "express": "^4.16.3",
+    "pg": "^7.4.3",
+    "pg-pool": "^2.0.3",
+    "uuid": "^3.2.1"
+  },
+  "devDependencies": {
+    "request": "^2.86.0"
+  },
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/derangeddk/chattie.git"
+  },
+  "author": "Niels Abildgaard <niels@deranged.dk>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/derangeddk/chattie/issues"
+  },
+  "homepage": "https://github.com/derangeddk/chattie#readme"
+}
